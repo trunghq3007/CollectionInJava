@@ -28,9 +28,9 @@ public class Main {
 	 * @param strings
 	 */
 	public static void main(String... strings) {
-		
+
 		ArrayList<String> list = new ArrayList<String>();
-		
+
 		List<String> arrayList = new ArrayList<String>();
 		arrayList.add("PHP");
 		arrayList.add("Python");
@@ -65,12 +65,18 @@ public class Main {
 		hashMap.put("Language1", ".Net");
 		System.out.println("Các phần tử của Map");
 		System.out.println("\t" + hashMap);
-		
+
 		// test IteratorCollection
 		System.out.println("test IteratorCollection");
 		IteratorCollection iteratorCollection = new IteratorCollection();
 		iteratorCollection.runIteratorCollection();
-
+		System.out.println();
+		
+		
+		// testArrayListInJava
+		System.out.println("test ArrayListInJava");
+		ArrayListInJava arrayListInJava = new ArrayListInJava();
+		arrayListInJava.showArrayListInJava();
 	}
 
 }
