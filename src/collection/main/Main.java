@@ -71,8 +71,7 @@ public class Main {
 		IteratorCollection iteratorCollection = new IteratorCollection();
 		iteratorCollection.runIteratorCollection();
 		System.out.println();
-		
-		
+
 		// testArrayListInJava
 		System.out.println("test ArrayListInJava");
 		ArrayListInJava arrayListInJava = new ArrayListInJava();
